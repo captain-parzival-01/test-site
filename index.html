@@ -1,33 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GG Demo</title>
     <link rel="stylesheet" href="src/output.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@0;1&display=swap" rel="stylesheet">
+
+    <meta name="description" content="GG Demo">
+
 </head>
-<body class="mt-2 pl-2 pr-2 pb-2">
+
+<body class=" w-[760px] m-[0_auto] bg-gray-900 text-amber-50 ">
     <header class="flex justify-between items-center border-b-2 border-red-500 pb-2">
         <h1 class="text-4xl font-bold">GG Demo</h1>
         <nav>
-            <ul class="flex flex-wrap items-center justify-center text-white gap-5 text-2xl *:bg-red-500 *:pl-2 *:pr-2 *:pt-1 *:pb-1 *:rounded-sm *:hover:bg-emerald-400"> 
+            <ul
+                class="flex flex-wrap items-center justify-center text-white gap-5 text-2xl *:pl-2 *:pr-2 *:pt-1 *:pb-1 *:rounded-sm *:hover:text-red-500 *:cursor-pointer">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a>Latest Books</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <div>
-            
+        <!-- latest books section -->
+        <div class="">
+            <div class="flex justify-between items-center ">
+                <h2 class="py-5 text-3xl ">Latest Books</h2>
+                <button class="border-1 px-3 py-1 rounded-2xl hover:border-red-500  hover:*:text-red-500 cursor-pointer">
+                    <a href="latest-books.html">See all</a>
+                </button>
+            </div>
+
+            <div class="mb-[100px] flex flex-row flex-wrap gap-5">
+                <a href="" class="flex flex-col  w-[175px] h-[300px] bg-blue-900 hover:ring-blue-300 hover:ring-2">
+
+                    <div class="flex-3/4 bg-amber-200 overflow-hidden justify-center items-center">
+                        <img class="flex-1" src="data/data-books/অপেক্ষা/opekkha_face.jpg" alt="">
+                    </div>
+                    <div class="flex-1/4 px-3 pt-2">
+                        <h3 class="tiro-bangla-bold text-2xl">অপেক্ষা</h3>
+                        <p class="tiro-bangla-regular text-l text-gray-400">হুমায়ুন আহমেদ</p>
+                    </div>
+                </a>
+
+                <a href="" class="flex flex-col  w-[175px] h-[300px] bg-blue-900 hover:ring-blue-300 hover:ring-2">
+                    <div class="flex-3/4 bg-amber-200 overflow-hidden justify-center items-center">
+                        <img class="flex-1" src="data/data-books/এবং হিমু/Ebon-Himu.jpg" alt="">
+                    </div>
+                    <div class="flex-1/4 px-3 pt-2">
+                        <h3 class="tiro-bangla-bold text-2xl">এবং হিমু</h3>
+                        <p class="tiro-bangla-regular text-l text-gray-400">হুমায়ুন আহমেদ</p>
+                    </div>
+                </a>
+
+                <a href="" class="flex flex-col  w-[175px] h-[300px] bg-blue-900 
+                    hover:ring-blue-300 hover:ring-2 ">
+                    <div class="flex-3/4 bg-amber-200 overflow-hidden justify-center items-center">
+                        <img class="flex-1" src="data/data-books/নেক্সাস/নেক্সাস cover.jpg" alt="">
+                    </div>
+                    <div class="flex-1/4 px-3 pt-2">
+                        <h3 class="tiro-bangla-bold text-2xl">নেক্সাস</h3>
+                        <p class="tiro-bangla-regular text-l text-gray-400">মো. নাজিম উদ্দীন</p>
+                    </div>
+                </a>
+                
+                <a href="" class="flex flex-col  w-[175px] h-[300px] bg-blue-900 
+                    hover:ring-blue-300 hover:ring-2 ">
+                    <div class="flex-3/4 bg-amber-200 overflow-hidden justify-center items-center">
+                        <img class="flex-1" src="data/data-books/নেক্সাস/নেক্সাস cover.jpg" alt="">
+                    </div>
+                    <div class="flex-1/4 px-3 pt-2">
+                        <h3 class="tiro-bangla-bold text-2xl">নেক্সাস</h3>
+                        <p class="tiro-bangla-regular text-l text-gray-400">মো. নাজিম উদ্দীন</p>
+                    </div>
+                </a>
+                
+
+            </div>
 
         </div>
-        
+
     </main>
 
-    <footer> 
+    <footer>
 
     </footer>
 </body>
+
 </html>
